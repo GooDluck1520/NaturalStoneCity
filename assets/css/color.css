@@ -1,0 +1,225 @@
+
+body {
+  color: #000;
+  background: #fff;
+}
+
+::selection {
+  background: #bca480;
+  color: #fff;
+}
+
+a {
+  color: #bca480;
+}
+
+a:hover {
+  color: #4c4c4c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4c4c4c;
+}
+
+
+.btn-default {
+  color: #676767;
+  border-color: #e5e5e5;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #bca480;
+  border-color: #bca480;
+}
+
+.btn-default-o {
+  color: #f2f2f2;
+  border-color: #f2f2f2;
+  background-color: transparent;
+}
+
+.btn-default-o:hover {
+  color: #bca480;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+
+.btn-dark-o {
+  color: #4c4c4c;
+  border-color: #4c4c4c;
+  background-color: transparent;
+}
+
+.btn-dark-o:hover {
+  color: #fff;
+  background-color: #4c4c4c;
+  border-color: #4c4c4c;
+}
+
+
+
+.btn-main {
+  color: #e3b56f;
+  background-color: #000;
+}
+
+.btn-main:after {
+  color:#e3b56f;
+} 
+
+.btn-main:hover:after {
+  color:#fff; 
+} 
+
+.btn-main:hover,
+.btn-main:focus,
+.btn-main:active {
+  background-color: #bca480;
+  color: #fff;
+}
+
+.btn-link {
+  color: #bca480;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  color: #4c4c4c;
+}
+
+
+
+.navbar-default {
+  background-color: #f1f1f1;
+}
+
+.st-navbar-mini .navbar-default {
+  background-color: #f1f1f1;
+}
+
+.st-navbar-mini .navbar-default .navbar-nav > li.active > a,
+.st-navbar-mini .navbar-default .navbar-nav > li.active a:hover,
+.st-navbar-mini .navbar-default .navbar-nav > li.active a:focus,
+.st-navbar-mini .navbar-default .navbar-nav > li.active a:active {
+  background-color: #bca480;
+  color: #f1f1f1
+}
+
+.navbar-nav > li > a {
+  color: #000;
+}
+
+.st-navbar-mini .navbar-default a {
+  color: #000 !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active {
+  color: #bca480;
+}
+
+.navbar-nav > li.active > a,
+.navbar-nav > li.active a:hover,
+.navbar-nav > li.active a:focus,
+.navbar-nav > li.active a:active {
+  color: #bca480;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active a:hover,
+.navbar-default .navbar-nav > li.active a:focus,
+.navbar-default .navbar-nav > li.active a:active {
+  color: #bca480;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bca480;
+}
+
+
+
+.filter .btn-main {
+  color: #bca480;
+  background-color: #000;
+}
+
+.filter .btn-main:after {
+  color: #bca480;
+}
+
+.filter .btn-main:hover:after {
+  color: #bca480;
+}
+
+.grid figure {
+  background: #000;
+}
+
+.grid figure figcaption {
+  color: #fff;
+}
+
+.grid figure h2 {
+  color: #fff;
+}
+
+.grid figure h2::after {
+  background: #bca480;
+}
+
+.call-us {
+  background-color: #bca480;
+}
+
+.call-us h3 {
+  color: #fff;
+}
+
+
+/* 8. FOOTER */
+
+footer.site-footer {
+  background-color: #000;
+  color: #999;
+}
+
+footer.site-footer a {
+  color: #808080;
+}
+
+footer.site-footer a:hover {
+  color: #bca480;
+}
+
+.navbar-toggle {
+  color: #fff;
+  background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #bca480; 
+  border-color: #bca480;
+}
+
+.scrollTop {
+  background-color: #bca480;
+}
